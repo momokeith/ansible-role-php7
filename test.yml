@@ -9,3 +9,6 @@
   tasks:
     - name: include main tasks
       include: tasks/main.yml
+
+  handlers:
+    - include: handlers/main.yml
