@@ -1,0 +1,5 @@
+.vagrant
+setup.retry
+roles/
+ansible-retry/
+ansible.cfg
