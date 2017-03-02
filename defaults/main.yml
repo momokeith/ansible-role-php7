@@ -1,0 +1,4 @@
+---
+# defaults file for ansible-role-php7
+
+ubuntu_php7_ppa_repo: "ppa:ondrej/php"

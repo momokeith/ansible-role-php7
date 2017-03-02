@@ -1,0 +1,8 @@
+---
+
+- name: Add third-party repository for Ubuntu
+  apt_repository: repo={{ ubuntu_php7_ppa_repo }}
+
+- name: apt-get update
+  apt:
+    update_cache: yes
